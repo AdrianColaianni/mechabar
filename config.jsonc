@@ -12,12 +12,10 @@
 
 	"include": [
 		// modules-left
-		"~/.config/waybar/modules/custom/user.jsonc",
 		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
 		"~/.config/waybar/modules/hyprland/window.jsonc",
 
 		// modules-center
-		"~/.config/waybar/modules/hyprland/language.jsonc",
 		"~/.config/waybar/modules/temperature.jsonc",
 		"~/.config/waybar/modules/memory.jsonc",
 		"~/.config/waybar/modules/cpu.jsonc",
@@ -26,22 +24,13 @@
 		"~/.config/waybar/modules/clock.jsonc",
 		"~/.config/waybar/modules/network.jsonc",
 		"~/.config/waybar/modules/bluetooth.jsonc",
-		"~/.config/waybar/modules/custom/system_update.jsonc",
 
 		// modules-right
 		"~/.config/waybar/modules/mpris.jsonc",
-		"~/.config/waybar/modules/pulseaudio.jsonc",
-		"~/.config/waybar/modules/backlight.jsonc",
+		"~/.config/waybar/modules/wireplumber.jsonc",
 		"~/.config/waybar/modules/battery.jsonc",
-		"~/.config/waybar/modules/custom/power_menu.jsonc",
 
 		"~/.config/waybar/modules/custom/dividers.jsonc"
-
-		// modules that are not included by default:
-		// "~/.config/waybar/modules/extras/keyboard_state.jsonc",
-		// "~/.config/waybar/modules/extras/taskbar.jsonc",
-		// "~/.config/waybar/modules/extras/tray.jsonc",
-		// "~/.config/waybar/modules/extras/wireplumber.jsonc"
 	],
 
 	/*------------
@@ -49,14 +38,11 @@
 	------------*/
 
 	"modules-left": [
-		"group/user",
-		"custom/left_div#1",
 		"hyprland/workspaces",
 		"custom/right_div#1",
 		"hyprland/window"
 	],
 	"modules-center": [
-		"hyprland/language",
 		"custom/left_div#2",
 		"temperature",
 		"custom/left_div#3",
@@ -75,19 +61,14 @@
 		"custom/right_div#4",
 		"network",
 		"bluetooth",
-		"custom/system_update",
 		"custom/right_div#5"
 	],
 	"modules-right": [
 		"mpris",
 		"custom/left_div#6",
-		"group/pulseaudio",
+		"group/wireplumber",
 		"custom/left_div#7",
-		"backlight",
-		"custom/left_div#8",
-		"battery",
-		"custom/left_inv#2",
-		"custom/power_menu"
+		"battery"
 	],
 
 	/*-------------

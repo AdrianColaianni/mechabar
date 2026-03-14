@@ -1,31 +1,26 @@
-/* catppuccin mocha */
+/*
+* Variant: Rosé Pine
+* Maintainer: DankChoir
+*/
 
-@define-color rosewater     #f5e0dc;
-@define-color flamingo      #f2cdcd;
-@define-color pink          #f5c2e7;
-@define-color mauve         #cba6f7;
-@define-color red           #f38ba8;
-@define-color maroon        #eba0ac;
-@define-color peach         #fab387;
-@define-color yellow        #f9e2af;
-@define-color green         #a6e3a1;
-@define-color teal          #94e2d5;
-@define-color sky           #89dceb;
-@define-color sapphire      #74c7ec;
-@define-color blue          #89b4fa;
-@define-color lavender      #b4befe;
-@define-color text          #cdd6f4;
-@define-color subtext1      #bac2de;
-@define-color subtext0      #a6adc8;
-@define-color overlay2      #9399b2;
-@define-color overlay1      #7f849c;
-@define-color overlay0      #6c7086;
-@define-color surface2      #585b70;
-@define-color surface1      #45475a;
-@define-color surface0      #313244;
-@define-color base          #1e1e2e;
-@define-color mantle        #181825;
-@define-color crust         #11111b;
+@define-color base            #191724;
+@define-color surface         #1f1d2e;
+@define-color overlay         #26233a;
+
+@define-color muted           #6e6a86;
+@define-color subtle          #908caa;
+@define-color text            #e0def4;
+
+@define-color love            #eb6f92;
+@define-color gold            #f6c177;
+@define-color rose            #ebbcba;
+@define-color pine            #31748f;
+@define-color foam            #9ccfd8;
+@define-color iris            #c4a7e7;
+
+@define-color highlightLow    #21202e;
+@define-color highlightMed    #403d52;
+@define-color highlightHigh   #524f67;
 
 /*
 	br - border
@@ -35,29 +30,29 @@
 
 /* main colors */
 
-@define-color accent        @lavender;
-@define-color main-br       @subtext0;
-@define-color main-bg       @crust;
+@define-color accent        @gold;
+@define-color main-br       @subtle;
+@define-color main-bg       @base;
 @define-color main-fg       @text;
-@define-color hover-bg      @base;
+@define-color hover-bg      @surface;
 @define-color hover-fg      alpha(@main-fg, 0.75);
 @define-color outline       shade(@main-bg, 0.5);
 
 /* module colors */
 
-@define-color workspaces    @mantle;
-@define-color temperature   @mantle;
-@define-color memory        @base;
-@define-color cpu           @surface0;
-@define-color time          @surface0;
-@define-color date          @base;
-@define-color tray          @mantle;
-@define-color volume        @mantle;
+@define-color workspaces    @surface;
+@define-color temperature   @surface;
+@define-color memory        @overlay;
+@define-color cpu           @highlightMed;
+@define-color time          @highlightMed;
+@define-color date          @overlay;
+@define-color tray          @surface;
+@define-color volume        @surface;
 @define-color backlight     @base;
-@define-color battery       @surface0;
+@define-color battery       @overlay;
 
 /* state colors */
 
-@define-color warning       @yellow;
-@define-color critical      @red;
-@define-color charging      @green;
+@define-color warning       @gold;
+@define-color critical      @love;
+@define-color charging      @foam;

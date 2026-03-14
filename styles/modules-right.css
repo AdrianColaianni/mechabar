@@ -24,7 +24,7 @@
 
 #custom-left_div.7 {
 	background-color: @volume;
-	color: @backlight;
+	color: @battery;
 }
 #backlight {
 	background-color: @backlight;
