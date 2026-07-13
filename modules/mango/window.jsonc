@@ -1,0 +1,12 @@
+{
+    "dwl/window": {
+        "format": "{title}",
+        "max-length": 50,
+        "rewrite": {
+           "(.*) - Brave": "󰖟 $1",
+           "(.*) - Nvim": " $1",
+           "(.*) - zsh": " [$1]",
+           "(.*) — Evolution": "  $1"
+        }
+    }
+}

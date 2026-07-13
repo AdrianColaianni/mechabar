@@ -12,8 +12,8 @@
 
 	"include": [
 		// modules-left
-		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
-		"~/.config/waybar/modules/hyprland/window.jsonc",
+		"~/.config/waybar/modules/mango/workspaces.jsonc",
+		"~/.config/waybar/modules/mango/window.jsonc",
 
 		// modules-center
 		"~/.config/waybar/modules/temperature.jsonc",
@@ -28,7 +28,6 @@
 		// modules-right
 		"~/.config/waybar/modules/mpris.jsonc",
 		"~/.config/waybar/modules/wireplumber.jsonc",
-		"~/.config/waybar/modules/battery.jsonc",
 
 		"~/.config/waybar/modules/custom/dividers.jsonc"
 	],
@@ -38,9 +37,9 @@
 	------------*/
 
 	"modules-left": [
-		"hyprland/workspaces",
+		"ext/workspaces",
 		"custom/right_div#1",
-		"hyprland/window"
+		"dwl/window"
 	],
 	"modules-center": [
 		"custom/left_div#2",
@@ -66,9 +65,7 @@
 	"modules-right": [
 		"mpris",
 		"custom/left_div#6",
-		"group/wireplumber",
-		"custom/left_div#7",
-		"battery"
+		"group/wireplumber"
 	],
 
 	/*-------------
