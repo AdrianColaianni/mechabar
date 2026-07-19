@@ -1,12 +1,13 @@
 {
-    "dwl/window": {
-        "format": "{title}",
+    // mango >= 0.15 no longer provides the dwl-ipc protocol, which made
+    // waybar's dwl/window module segfault; title now comes from `mmsg`.
+    // Rewrite rules live in scripts/window-title.sh.
+    "custom/window": {
+        "exec": "~/.config/waybar/scripts/window-title.sh",
+        "return-type": "json",
+        "restart-interval": 1,
         "max-length": 50,
-        "rewrite": {
-           "(.*) - Brave": "󰖟 $1",
-           "(.*) - Nvim": " $1",
-           "(.*) - zsh": " [$1]",
-           "(.*) — Evolution": "  $1"
-        }
+        "escape": true,
+        "format": "{}"
     }
 }

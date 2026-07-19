@@ -39,7 +39,7 @@
 	"modules-left": [
 		"ext/workspaces",
 		"custom/right_div#1",
-		"dwl/window"
+		"custom/window"
 	],
 	"modules-center": [
 		"custom/left_div#2",
