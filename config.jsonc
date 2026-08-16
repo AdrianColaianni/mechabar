@@ -12,8 +12,8 @@
 
 	"include": [
 		// modules-left
-		"~/.config/waybar/modules/mango/workspaces.jsonc",
-		"~/.config/waybar/modules/mango/window.jsonc",
+		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
+		"~/.config/waybar/modules/hyprland/window.jsonc",
 
 		// modules-center
 		"~/.config/waybar/modules/temperature.jsonc",
@@ -37,9 +37,9 @@
 	------------*/
 
 	"modules-left": [
-		"ext/workspaces",
+		"hyprland/workspaces",
 		"custom/right_div#1",
-		"custom/window"
+		"hyprland/window"
 	],
 	"modules-center": [
 		"custom/left_div#2",
