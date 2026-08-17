@@ -12,7 +12,7 @@
 
 	"include": [
 		// modules-left
-		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
+		"~/.config/waybar/modules/ext/workspaces.jsonc",
 		"~/.config/waybar/modules/hyprland/window.jsonc",
 
 		// modules-center
@@ -37,7 +37,7 @@
 	------------*/
 
 	"modules-left": [
-		"hyprland/workspaces",
+		"ext/workspaces",
 		"custom/right_div#1",
 		"hyprland/window"
 	],
