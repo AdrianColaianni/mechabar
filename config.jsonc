@@ -28,6 +28,7 @@
 		// modules-right
 		"~/.config/waybar/modules/mpris.jsonc",
 		"~/.config/waybar/modules/wireplumber.jsonc",
+		"~/.config/waybar/modules/battery.jsonc",
 
 		"~/.config/waybar/modules/custom/dividers.jsonc"
 	],
@@ -65,7 +66,9 @@
 	"modules-right": [
 		"mpris",
 		"custom/left_div#6",
-		"group/wireplumber"
+		"group/wireplumber",
+		"custom/left_div#7",
+		"battery"
 	],
 
 	/*-------------
